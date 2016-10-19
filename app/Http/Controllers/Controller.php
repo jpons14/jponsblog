@@ -8,7 +8,7 @@ class Controller extends BaseController
 {
     public function index()
     {
-        return 'index';
+        return view("/public/index.php");
     }
     public function publicc()
     {
